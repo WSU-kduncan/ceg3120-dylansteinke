@@ -19,6 +19,24 @@
 	3. discord.py version 2.0.1 `pip3 install -U discord.py==2.0.1`
 	4. dotenv `python3.8 -m pip install python-dotenv`
 
-## Part 2 - Modifications
+## Part 2 - Usage
+1. What Command can be typed in the Discord Server:
+	1. `steinke!`
+	2. `towel!`
+2. What response will be provided:
+	1. `steinke!` will provide saying that are said by the Steinke family and when said, are caught by others and pointed out as they are said too often per the family. Sayings include:
+	```
+	1. Not a problem
+	2. I guarantee it
+	3. Mother wouldn't like that
+	4. It is what it is
+	```
+	2. `towel!` will provide different sayings that have been provided. Sayings include:
+	```
+	1. There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.
+    2. It is a mistake to think you can solve any major problems just with potatoes.
+    3. In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
+    4. A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
+	```
 
 ## Part 3 - Research and Documentation
