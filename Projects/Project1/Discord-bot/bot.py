@@ -43,4 +43,25 @@ async def on_message(message):
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
 
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
+    meaning_quotes = [
+        'I guarantee it',
+        'Not a problem',
+        "Mother wouldn't like that",
+        'It is what it is',
+    ]
+    if message.content == 'steinke!':
+    #if message.content.startswith('$steinke'):
+        response = random.choice(meaning_quotes)
+        await message.channel.send(response)
+
+
+
+
+
+
 client.run(TOKEN)
