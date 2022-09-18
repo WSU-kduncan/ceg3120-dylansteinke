@@ -22,7 +22,6 @@
 ## Part 2 - Usage
 1. What Command can be typed in the Discord Server:
 	1. `steinke!`
-	2. `towel!`
 2. What response will be provided:
 	1. `steinke!` will provide saying that are said by the Steinke family and when said, are caught by others and pointed out as they are said too often per the family. Sayings include:
 	```
@@ -31,14 +30,10 @@
 	3. Mother wouldn't like that
 	4. It is what it is
 	```
-	2. `towel!` will provide different sayings that have been provided. Sayings include:
-	```
-	1. There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.
-    2. It is a mistake to think you can solve any major problems just with potatoes.
-    3. In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
-    4. A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
-	```
-	3. Photo:
+	2. Photo:
 	![proof](Discord.png)
 
 ## Part 3 - Research and Documentation
+1. A possible solution would be creating a cron job where the bot.py and .env file is stored in /bin. Within crontab, we would insert the following: `@reboot python3.8 /bin/bot.py &`. This would work as when the machine is rebooted, the bot would automatically be started with the cron job. (Learned about cron jobs in previous classes with Professor Duncan and how they can be used to auto start jobs and have jobs run every day at specified times, ect.)
+2. I went ahead and added this cron job to my instance on AWS and it is working as should :)
+3. Source: [linuxshelltips](https://www.linuxshelltips.com/run-python-script-ubuntu-startup/#:~:text=Step%201%3A%20Create%20Your%20Python,use%20the%20following%20Python%20script.&text=Add%20the%20following%20Python%20script.&text=Upon%20rebooting%20our%20Ubuntu%20system,create%20a%20file%20called%20i_was_created.)
