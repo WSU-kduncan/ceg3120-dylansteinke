@@ -11,10 +11,14 @@
 	8. Copy Token as you can only see this token once
 2. Where to put the token:
 	1. Within the folder you are runing the python code from put in a file named ".env"
-	2. Within the file have the follwing: `DISCORD_TOKEN=REPLACE_ME_WITH_TOKEN`
-3. Packages needed to run the code:
-	1. 
+	2. Within the file have the following: `DISCORD_TOKEN=REPLACE_ME_WITH_TOKEN`
+	3. Add filepath to .gitignore file if uploading to github!
+3. Packages needed to run the code and commands to install:
+	1. Python 3.8 `sudo apt-get install python3.8`
+	2. pip3 `sudo apt install python3-pip`
+	3. discord.py version 2.0.1 `pip3 install -U discord.py==2.0.1`
+	4. dotenv `python3.8 -m pip install python-dotenv`
 
 ## Part 2 - Modifications
 
-## part 3 - Research and Documentation
+## Part 3 - Research and Documentation
