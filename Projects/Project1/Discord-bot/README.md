@@ -38,5 +38,7 @@
     3. In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
     4. A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
 	```
+	3. Photo:
+	![proof](Discord.png)
 
 ## Part 3 - Research and Documentation
