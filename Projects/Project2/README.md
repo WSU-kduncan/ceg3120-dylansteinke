@@ -4,7 +4,7 @@
 2. A subnet is a range of IPs within a VPC, these can be connected to the internet, other VPCs and more.  
 ![Subnet Proof](images/subnet.png)
 3. An internet gateway is what allows a VPC to connect to the internet. It is a "virtual router."  
-![Internet Gateway Proof](images/gateway.png)
+![Internet Gateway Proof](images/internetgateway.png)
 4. A route table specifies how packets are forwarded between the subnets within a VPC, the internet, and a VPN connection.  
 ![Route Table Proof](images/route.png)
 5. A security group acts as a firewall for an instance to control inbound and outbound traffic.  
